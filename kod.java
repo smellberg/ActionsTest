@@ -15,7 +15,7 @@ import se.dsve.movies.services.JwtService;
 
 @RequestMapping("/auth")
 @RestController
-public class AuthenticationController {
+public class AuthenticationController 
 
     private final JwtService jwtService;
     private final AuthenticationService authenticationService;
