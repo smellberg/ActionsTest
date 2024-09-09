@@ -1,0 +1,9 @@
+stages:
+  - lint
+
+superlinter:
+  image: github/super-linter:slim
+  stage: lint
+  script:
+    - echo "Running Super-Linter..."
+    - super-linter
